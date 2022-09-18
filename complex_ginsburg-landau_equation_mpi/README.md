@@ -9,3 +9,5 @@ We use the psedospetral method with RK4 with random initial data in the range $[
 
 The program takes four arguments with an optional fifth argument for the random seed so that the program `cgl` can be executed like `$ cgl 128 1.5 0.25 100000`,
 where $N=128$ is the size of the domain in $x$ and $y$ directions, $c_1 = 1.5$ and $c_3 = 0.25$ arethe real-valued parameters, and $M = 100,000$ is the number of time steps. The optional fifth argument is an integer seed value for generating random initial values. The program prints the grid values of $A$ in a file called `CGL.out` that contains the data at the time points $t = 1000k$ for $k = 0, 1, \cdots, 10.$
+
+The numerical method uses an $N\times N$ grild. The implemential is parallel with the MPI module. 
