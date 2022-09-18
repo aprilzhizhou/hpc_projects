@@ -1,2 +1,2 @@
 # hpc_projects
-higher performance computing projects in c 
+## Higher Performance Computing projects in C with MPI 
